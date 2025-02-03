@@ -17,9 +17,9 @@ void main() async {
   // Use setUp to initialize Supabase before each test
   setUp(() async {
     await Supabase.initialize(
-      url: 'https://qivufhdbbhjtauakjqrm.supabase.co',
+      url: '#',
       anonKey:
-          'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFpdnVmaGRiYmhqdGF1YWtqcXJtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjc5Njk0MjEsImV4cCI6MjA0MzU0NTQyMX0.ykrkBsgQzEVfSbEF9i4B8K84BPARkgVTtYIYK3HsWUg',
+          '#',
     );
   });
 
