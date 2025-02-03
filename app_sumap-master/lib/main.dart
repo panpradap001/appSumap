@@ -22,7 +22,7 @@ late GoogleMapController googleMapController;
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Supabase.initialize(
-    url: 'https://qivufhdbbhjtauakjqrm.supabase.co',
+    url: '#',
     anonKey: '#',
   );
 
