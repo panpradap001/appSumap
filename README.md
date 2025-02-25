@@ -12,6 +12,5 @@ SU MAP is a mobile application designed to help students and staff at Silpakorn 
 ## Technology Stack
 - **Frontend**: Flutter (Dart)
 - **State Management**: Provider / Riverpod
-- **Backend**: Firebase (optional, if needed for notifications or database)
-- **APIs**: Google Maps API for navigation
-
+- **Backend**: RESTful API (integrated with the university’s database or other relevant services)
+- **APIs**: Google Maps API (for navigation and map rendering)
